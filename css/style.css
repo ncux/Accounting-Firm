@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Righteous', cursive;
+    line-height: 1.4;
 }
 
 a {
@@ -20,6 +21,37 @@ p {
 
 .text-primary {
     color: #93cb52;
+}
+
+
+/* utility classes */
+.large-text {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    color: #ffffff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.button:hover {
+    background: #7ab436;
+}
+
+.dark-button {
+    background: darkgrey;
+    color: #ffffff;
 }
 
 
@@ -50,4 +82,27 @@ p {
 #navbar ul li a:hover {
     background: #93cb52;
     border-radius: 0.5rem;
+}
+
+
+/* Header / showcase */
+#showcase {
+    height: 100vh;
+    background: #333333 url("../images/showcase.jpg") no-repeat center center/cover;
+    color: #ffffff;
+}
+
+#showcase .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 65px;
+    text-align: center;
+    justify-content: center;
+    /* needs height to be set on the container */
+    align-items: center;
+    padding: 0 2rem;
 }

@@ -253,3 +253,9 @@ p {
     margin-left: 0.8rem;
 }
 
+/* Main footer */
+#footer .content p {
+    text-align: center;
+    margin: auto;
+}
+

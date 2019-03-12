@@ -25,10 +25,39 @@ p {
 
 
 /* utility classes */
+.content {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+
 .large-text {
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
+}
+
+.medium-text {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.vertical-padding-1 {
+    padding: 1.5rem 0;
+}
+
+.vertical-padding-2 {
+    padding: 2rem 0;
+}
+
+.vertical-padding-3 {
+    padding: 2.5rem 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .lead {
@@ -100,9 +129,39 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 65px;
+    right: 0;
+    bottom: 0;
+    left: 0;
     text-align: center;
     justify-content: center;
     /* needs height to be set on the container */
     align-items: center;
     padding: 0 2rem;
+}
+
+/* Section "What We Do" */
+
+#what .content {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+
+.items-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+}
+
+.item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
 }

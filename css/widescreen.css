@@ -1,0 +1,21 @@
+
+/* align the icons to the left in "What" section */
+#what .items-container .item {
+    display: flex;
+    text-align: left;
+}
+
+#what .items-container .item i {
+    margin-right: 1.5rem;
+    align-self: center;
+}
+
+
+/* Section "Contact" */
+#contact {
+    display: flex;
+}
+
+#contact #map {
+    flex: 2;
+}

@@ -1,8 +1,4 @@
 
-
-
-
-
 // Sticky menu background: make it a bit transparent while scrolling
 window.addEventListener('scroll', () => {
     if (window.scrollY > 150) {
@@ -11,16 +7,6 @@ window.addEventListener('scroll', () => {
         document.querySelector('#navbar').style.opacity = 1;
     }
 });
-
-
-
-
-
-
-
-
-
-
 
 
 // Smooth Scrolling

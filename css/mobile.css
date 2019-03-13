@@ -1,0 +1,104 @@
+
+/* align the icons to the left in "What" section */
+#what .items-container {
+    display: block;
+    padding: 1rem;
+}
+
+#what .content h2 {
+    font-size: 2rem;
+}
+
+/*#what .items-container .item {*/
+    /*display: flex;*/
+    /*text-align: left;*/
+/*}*/
+
+#what .items-container .item i {
+    margin-right: 1.5rem;
+    align-self: center;
+}
+
+/* Media Query for Smartphones */
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: 0.5rem;
+    }
+
+    #showcase .content {
+        top: 70px;
+        margin-top: 2.5rem;
+        padding: 2.5rem 2rem;
+        align-items: center;
+    }
+
+    #showcase .content h1 {
+        font-size: 2rem;
+    }
+
+    #showcase .content p {
+        font-size: 1rem;
+    }
+
+    /*#who .content {*/
+        /*display: block;*/
+    /*}*/
+
+    /*#who .content #who-image {*/
+        /*display: none;*/
+        /*!*height: 100%;*!*/
+    /*}*/
+
+    #who .content {
+        flex-direction: column;
+    }
+
+    #who .content h2 {
+        font-size: 2rem;
+    }
+
+    #who .content #who-image {
+        height: 400px;
+    }
+
+    #clients .items-container {
+        margin-top: 0;
+        margin-right: 1.7rem;
+    }
+
+    #clients h2 {
+        font-size: 2.2rem;
+        margin-bottom: 0;
+    }
+
+    #clients img {
+        width: 240%;
+    }
+
+    #clients .items-container div:last-child {
+        display: none;
+    }
+
+    #contact #contact-form h2 {
+        font-size: 2rem;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact #map {
+        height: 400px;
+    }
+
+}

@@ -101,4 +101,11 @@
         height: 400px;
     }
 
+    /* Main footer */
+    #footer .content p {
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
 }
